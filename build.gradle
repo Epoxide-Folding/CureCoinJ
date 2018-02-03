@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+group = 'org.epoxide.curecoinj'
+
+repositories {
+
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.59'
+}
